@@ -1,0 +1,16 @@
+#include<iostream>
+#include"Cvertex.hpp"
+
+#include"C3DObject.hpp"
+
+using namespace std;
+
+// il ya une position , un constructeur, destructeur qui est cvertex
+Cvertex::Cvertex (){x=0,y=0,z=0;}//constructeur par default
+
+
+
+
+
+
+virtual ~Cverex(){}//destructeur par default

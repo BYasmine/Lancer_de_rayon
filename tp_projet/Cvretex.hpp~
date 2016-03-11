@@ -1,0 +1,13 @@
+#ifndef Cvertex_hpp
+#define Cvertex_hpp
+class CVertex {
+public:
+  double x;
+  double y;
+  double z;
+
+  CVertex();
+  //je doit rajouter la méthode
+
+};
+#endif

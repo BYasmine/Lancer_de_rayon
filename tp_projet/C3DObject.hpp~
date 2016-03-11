@@ -1,0 +1,21 @@
+#ifndef Cvector_hpp
+#define Cvector_hpp
+
+#include"Cvertex.hpp"
+#include"Cvector.hpp"
+
+class C3DObject {
+public:
+  Cvertex Uposition(const Cvetrex cver);
+
+  virtual double InIntersectedBy(CRay &);
+  virtual Cvector GetNormal(Cvertex &);
+  virtual Cvector GetTangeant(Cvertex &);
+
+
+
+  ~C3DObject();
+
+};
+#endif 
+  

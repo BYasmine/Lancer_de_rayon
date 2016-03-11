@@ -1,0 +1,28 @@
+#ifndef Cvertex_hpp
+#define Cvertex_hpp
+
+#include"Cvector.hpp"
+
+//verifier
+class Cvector;
+
+class Cvertex {
+public:
+  double x;
+  double y;
+  double z;
+
+  Cvertex();
+  
+
+  //je doit rajouter la méthode
+  Cvertex(const double & a, const double & b,const double & c);//constructeur en passant en paramettre 
+  Cvertex(const Cvector & Cvec);//constructeur par copie
+
+  ~Cvertex();//la c'est mon destructeur
+  Cvertex operator +(const Cvertex & Cver)const ;
+  void Afficher() const ;
+  
+
+};
+#endif

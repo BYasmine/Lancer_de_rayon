@@ -1,0 +1,27 @@
+#include<iostream>
+
+class complexe
+{
+public :
+  double reel ;
+  double imag;
+
+  complexe(){reel=0,imag=0;}
+  complexe plus(complexe z){
+
+    complexe s;
+    s.reel =reel+z.reel ;
+    s.imag=imag+z.imag;
+    return s;
+  }
+      int main(){
+
+        complexe z1,z2,z3;
+	z1.reel=1;z2.reel=2;
+	z1.imag=1;z2.imag=-4;
+
+	z3=z1.plus(z2);
+	std::cout<<z3.reel <<endl;
+	std::cout<<z3.imag<<endl;
+	return 0;
+      }
